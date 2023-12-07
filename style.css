@@ -1,0 +1,9 @@
+body{
+    font-size: x-small;
+    font-family: monospace;
+    background-color: #101010;
+    color: #ffffff;
+    word-wrap: break-word;
+    white-space: pre-wrap;
+}
+
