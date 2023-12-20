@@ -282,9 +282,43 @@ a:hover {
     top: 150px;
 }
 
-@media (max-width: 640px) {
-    .header {
-        padding-left: 50px;
-        padding-right: 50px;
+.menu-icon {
+    display: none;
+}
+@media screen and (max-width: 767px) {
+    .menu-items {
+        display: none;
     }
+    
+    .header {
+        display: flex;
+        padding: 16px 16px 8px 16px;
+        justify-content: space-between;
+        align-items: center;
+    }
+    
+    .menu-icon {
+        display: block;
+        width: 24px;
+        height: 24px;
+        flex-shrink: 0;
+    }
+    
+    .menu-icon.show-menu {
+        display: block;
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+    }
+
+    .container {
+        display: none;
+    }
+
+    .left-hand-side {
+        display: none;
+    }
+
 }
