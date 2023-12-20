@@ -217,10 +217,8 @@ a:hover {
 
 .hero-image {
     position: absolute;
-    width: 350px;
-    height: auto;
     top: -300px;
-    left: 60px;
+    left: 120px;
 }
 
 .work-status {
@@ -229,9 +227,9 @@ a:hover {
     border: 1px #ABB2BF solid;
     display: inline-flex;
     position:relative;
-    right: -60px;
+    right: -70px;
     gap: 8px;
-    top: -30px;
+    top: -40px;
 }
 
 .status-indicator {
