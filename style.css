@@ -131,6 +131,7 @@ body, div, img {
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
+    flex-direction: row;
     align-items: flex-start;
     gap: 8px;
     display: inline-flex;
@@ -151,8 +152,8 @@ body, div, img {
     height: 32px;
     position: relative;
     background: #ABB2BF;
-    margin-left: -15px;
-    margin-top: -8px;
+    left: -215px;
+    margin-top: -5px;
 }
 
 .hero-text {
