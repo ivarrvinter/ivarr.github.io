@@ -162,7 +162,7 @@ body, div, img {
     font-weight: 600;
     display: block;
     margin-left: 171px;
-    margin-top: 100px;
+    margin-top: 60px;
 }
 
 .highlight-text {
@@ -219,15 +219,15 @@ body, div, img {
 
 
 .hero-image {
-    width: 457px;
-    height: 386px;
-    left: 1200px;
-    top: -300px;
+    width: auto;
+    height: auto;
+    right: 160px;
+    top: -350px;
 }
 
 .svg-element {
     top: 150px;
-    left: 1200px;
+    right: 160px;
 }
 
 .work-status {
@@ -237,8 +237,8 @@ body, div, img {
     border: 1px #ABB2BF solid;
     display: inline-flex;
     align-items: center;
-    margin-left: 1230px;
-    margin-top: 86px;
+    margin-left: 760px;
+    margin-top: 36px;
 }
 
 .status-indicator {
