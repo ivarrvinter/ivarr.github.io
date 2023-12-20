@@ -213,12 +213,8 @@ body, div, img {
     position: relative;
 }
 
-.hero-image, .svg-element {
-    position: absolute;
-}
-
-
 .hero-image {
+    position: absolute;
     width: auto;
     height: auto;
     right: 160px;
@@ -226,8 +222,10 @@ body, div, img {
 }
 
 .svg-element {
-    top: 150px;
-    right: 160px;
+    width: auto;
+    height: auto;
+    flex-shrink: 0px;
+    position: absolute;
 }
 
 .work-status {
@@ -267,7 +265,7 @@ body, div, img {
     flex-shrink: 0;
     border: 1px solid var(--gray, #ABB2BF);
     position: absolute;
-    top: 816px;
+    top: 605px;
     right: 0px;
 }
 
@@ -277,7 +275,7 @@ body, div, img {
     height: 20.704px;
     fill: var(--gray, #ABB2BF);
     left: 600px;
-    top: 800px;
+    top: 700px;
 }
 
 .border-quoation {
