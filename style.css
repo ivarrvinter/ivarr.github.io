@@ -1,9 +1,296 @@
-body{
-    font-size: x-small;
-    font-family: monospace;
-    background-color: #101010;
-    color: #ffffff;
-    word-wrap: break-word;
-    white-space: pre-wrap;
+@import url('https://fonts.googleapis.com/css?family=Fira+Code');
+
+body, div, img {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Fira Code';
+    background: #101114;
 }
 
+.header {
+    width: 100%;
+    height: 100%;
+    padding-top: 32px;
+    padding-bottom: 8px;
+    padding-left: 171px;
+    padding-right: 171px;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+
+.logo-container {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.logo img {
+    width: 16px;
+    height: 16px;
+    position: relative;
+}
+
+.name {
+    color: white;
+    font-size: 16px;
+    font-weight: 700;
+    word-wrap: break-word;
+}
+
+/* Styling for the menu items */
+.menu-items {
+    display: flex;
+    gap: 32px;
+}
+
+.menu-item {
+    display: flex;
+    align-items: flex-start;
+}
+
+.menu-item div {
+    font-size: 16px;
+    word-wrap: break-word;
+}
+
+.menu-item .hashtag {
+    color: #78DDA6;
+    font-weight: 400;
+}
+
+.menu-item .menu-text {
+    color: #ABB2BF;
+    font-weight: 400;
+}
+
+/* Styling for language selection */
+.language {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.language div {
+    color: #ABB2BF;
+    font-size: 16px;
+    font-weight: 600;
+    word-wrap: break-word;
+}
+
+.language-options {
+    opacity: 0;
+    border: 1px #ABB2BF solid;
+    display: none;
+    flex-direction: column;
+    gap: 8px;
+    position: absolute;
+    top: 24px;
+    left: 0;
+}
+
+.language:hover .language-options {
+    display: flex;
+}
+
+.language-options div {
+    color: #ABB2BF;
+    font-size: 16px;
+    font-weight: 400;
+    word-wrap: break-word;
+}
+
+/* Styling for the language switcher icon */
+.language-switcher {
+    width: 10px;
+    height: 5px;
+    position: relative;
+}
+
+.language-switcher div {
+    width: 7.07px;
+    height: 0;
+    position: absolute;
+    border: 2px #ABB2BF solid;
+}
+
+.language-switcher div:first-child {
+    left: 0;
+    top: 0;
+    transform: rotate(45deg);
+    transform-origin: 0 0;
+}
+
+.language-switcher div:last-child {
+    left: 5px;
+    top: 5px;
+    transform: rotate(-45deg);
+    transform-origin: 0 0;
+}
+
+/* Social media on the LHS */
+.left-hand-side {
+    width: 100%;
+    height: 100%;
+    background: #101114;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 8px;
+    display: inline-flex;
+    padding-left: 32px;
+    padding-top: 100px;
+}
+
+.vertical-line {
+    width: 191px;
+    height: 1px;
+    transform: rotate(270deg);
+    transform-origin: 0 0;
+    background: #ABB2BF;
+}
+
+.single-shape {
+    width: 32px;
+    height: 32px;
+    position: relative;
+    background: #ABB2BF;
+    margin-left: -15px;
+    margin-top: -8px;
+}
+
+.hero-text {
+    color: white;
+    font-size: 32px;
+    font-weight: 600;
+    display: block;
+    margin-left: 171px;
+    margin-top: 100px;
+}
+
+.highlight-text {
+    color: white;
+    font-size: 32px;
+    font-weight: 600;
+    word-wrap: break-word;
+}
+
+.highlighted-text {
+    color: #78DDA6;
+    font-size: 32px;
+    font-weight: 600;
+    word-wrap: break-word;
+}
+
+.description {
+    color: #ABB2BF;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 25px;
+    word-wrap: break-word;
+    margin-left: 171px;
+    margin-top: 32px;
+}
+
+.cta-button {
+    width: auto;
+    height: 100%;
+    padding: 8px 16px;
+    border: 1px #78DDA6 solid;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 10px;
+    display: inline-block;
+    margin-left: 171px;
+    margin-top: 24px;
+}
+
+.cta-button div {
+    color: white;
+    font-size: 16px;
+    font-weight: 500;
+    word-wrap: break-word;
+}
+
+.container {
+    position: relative;
+}
+
+.hero-image, .svg-element {
+    position: absolute;
+}
+
+
+.hero-image {
+    width: 457px;
+    height: 386px;
+    left: 1200px;
+    top: -300px;
+}
+
+.svg-element {
+    top: 150px;
+    left: 1200px;
+}
+
+.work-status {
+    width: auto;
+    padding: 8px 16px;
+    background: #101114;
+    border: 1px #ABB2BF solid;
+    display: inline-flex;
+    align-items: center;
+    margin-left: 1230px;
+    margin-top: 86px;
+}
+
+.status-indicator {
+    width: 16px;
+    height: 16px;
+    background: #78DDA6;
+    border: 1px #78DDA6 solid;
+    margin-right: 10px;
+}
+
+.status-text {
+    color: #ABB2BF;
+    font-size: 16px;
+    font-weight: 500;
+    word-wrap: break-word;
+}
+
+.status-highlight {
+    color: white;
+    font-weight: 600;
+}
+
+.rec {
+    width: 91px;
+    height: 91px;
+    flex-shrink: 0;
+    border: 1px solid var(--gray, #ABB2BF);
+    position: absolute;
+    top: 816px;
+    right: 0px;
+}
+
+.open-quotation {
+    position:absolute;
+    width: 25.472px;
+    height: 20.704px;
+    fill: var(--gray, #ABB2BF);
+    left: 600px;
+    top: 800px;
+}
+
+.border-quoation {
+    display: inline-flex;
+    padding: 32px;
+    align-items: flex-start;
+    gap: 10px;
+    border: 1px solid var(--gray, #ABB2BF);
+    background: var(--background, #101114);
+    top: 150px;
+}
