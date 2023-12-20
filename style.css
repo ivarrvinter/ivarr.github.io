@@ -290,6 +290,18 @@ a:hover {
     display: none;
 }
 
+.hashtag {
+    color: #78DDA6;
+}
+
+.project {
+    color: white;
+    font-size: 32px;
+    font-weight: 500;
+    word-wrap: break-word;
+    margin-top: 171px;
+}
+
 @media screen and (max-width: 767px) {
     .menu-items {
         display: none;
