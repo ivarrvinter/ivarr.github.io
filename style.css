@@ -11,11 +11,15 @@ body, div, img {
 a {
     text-decoration: none;
     color: inherit;
+    transition: color 0.5s ease;
 }
 
 a:hover {
     color: #ffffff;
-    transition: all 2 ease;
+}
+
+a:not(:hover) {
+    transition: color 2 ease-out;
 }
 
 .header {
