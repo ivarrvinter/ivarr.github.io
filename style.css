@@ -805,3 +805,15 @@ a:not(:hover) {
     line-height: normal;
 
 }
+
+.copyright {
+    color: var(--gray, #ABB2BF);
+    font-family: Fira Code;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-align: center;
+    margin-top: 64px;
+    margin-bottom: 32px;
+}
