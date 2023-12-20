@@ -8,6 +8,16 @@ body, div, img {
     background: #101114;
 }
 
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+a:hover {
+    color: #ffffff;
+    transition: all 2 ease;
+}
+
 .header {
     padding-top: 32px;
     padding-bottom: 8px;
