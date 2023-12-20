@@ -204,6 +204,11 @@ a:hover {
     word-wrap: break-word;
 }
 
+.cta-button:hover {
+    border-color: #ffffff;
+    transition: border-color 0.5s ease;
+}
+
 .container {
     position: absolute;
     flex-wrap: nowrap;
@@ -212,16 +217,10 @@ a:hover {
 
 .hero-image {
     position: absolute;
-    width: auto;
+    width: 350px;
     height: auto;
-    top: -350px;
-}
-
-.svg-element {
-    width: auto;
-    height: auto;
-    flex-shrink: 0px;
-    position: absolute;
+    top: -300px;
+    left: 60px;
 }
 
 .work-status {
@@ -230,9 +229,9 @@ a:hover {
     border: 1px #ABB2BF solid;
     display: inline-flex;
     position:relative;
-    right: -30px;
-    margin-top: 36px;
+    right: -60px;
     gap: 8px;
+    top: -30px;
 }
 
 .status-indicator {
@@ -302,7 +301,7 @@ a:hover {
     margin-top: 171px;
 }
 
-@media screen and (max-width: 767px) {
+/* @media screen and (max-width: 767px) {
     .menu-items {
         display: none;
     }
@@ -353,4 +352,4 @@ a:hover {
     .mobile {
         display: block;
     }
-}
+} */
