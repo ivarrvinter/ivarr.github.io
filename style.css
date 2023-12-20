@@ -285,6 +285,11 @@ a:hover {
 .menu-icon {
     display: none;
 }
+
+.mobile {
+    display: none;
+}
+
 @media screen and (max-width: 767px) {
     .menu-items {
         display: none;
@@ -321,4 +326,19 @@ a:hover {
         display: none;
     }
 
+    .hero-text {
+        display: none;
+    }
+
+    .description {
+        display: none;
+    }
+
+    .cta-button {
+        display: none;
+    }
+    
+    .mobile {
+        display: block;
+    }
 }
