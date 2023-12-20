@@ -97,7 +97,6 @@ body, div, img {
     word-wrap: break-word;
 }
 
-/* Styling for the language switcher icon */
 .language-switcher {
     width: 10px;
     height: 5px;
@@ -288,4 +287,11 @@ body, div, img {
     border: 1px solid var(--gray, #ABB2BF);
     background: var(--background, #101114);
     top: 150px;
+}
+
+@media (max-width: 640px) {
+    .header {
+        padding-left: 50px;
+        padding-right: 50px;
+    }
 }
