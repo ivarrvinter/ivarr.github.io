@@ -480,7 +480,119 @@ a:not(:hover) {
     left: 502px;  
 }
 
-.line-footer {
+.language-component {
+    position: relative;
+    display: inline-flex;
+    padding: 8px 0px;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 8px;
+    border: 1px solid var(--gray, #ABB2BF);
+    flex-shrink: 0;
+    width: 103px;
+    height: 80px;
+    top: 21px;
+    left: 678px;
+}
+
+.lan-name {
+    color: var(--white, #FFF);
+    font-family: Fira Code;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    width: 87px;
+    height: 21px;
+    padding-left: 11px;
+}
+
+.line-diff {
+    width: 100%;
+    border: 1px solid var(--gray, #ABB2BF);
+    height: 0px;
+}
+
+.python {
+    color: var(--gray, #ABB2BF);
+    font-family: Fira Code;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    padding-left: 11px;
+}
+
+.core-component {
+    position: relative;
+    display: inline-flex;
+    padding: 8px 0px;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 8px;
+    border: 1px solid var(--gray, #ABB2BF);
+    flex-shrink: 0;
+    width: 120px;
+    height: 103px;
+    top: 21px;
+    left: 694px;
+}
+
+.core-nlp {
+    color: var(--white, #FFF);
+    font-family: Fira Code;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    align-self: center;
+}
+
+.nlp-lib {
+    color: var(--gray, #ABB2BF);
+    font-family: Fira Code;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    align-self: center;
+}
+
+.fm-component {
+    position: relative;
+    display: inline-flex;
+    padding: 8px 0px;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 8px;
+    border: 1px solid var(--gray, #ABB2BF);
+    flex-shrink: 0;
+    width: 196px;
+    height: 103px;
+    top: 21px;
+    left: 710px;
+}
+
+.fm {
+    color: var(--white, #FFF);
+    font-family: Fira Code;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    align-self: center;
+}
+
+.fm-name {
+    color: var(--gray, #ABB2BF);
+    font-family: Fira Code;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    padding-left: 11px;
+}
+/* .line-footer {
     position: relative;
     height: 1px;
     width: 100%;
@@ -488,4 +600,4 @@ a:not(:hover) {
     motion-rotation: 0 deg;
     overflow: hidden;
     top: 450px;
-}
+} */
