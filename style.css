@@ -205,15 +205,15 @@ a:hover {
 }
 
 .container {
-    position: relative;
+    position: absolute;
     flex-wrap: nowrap;
+    right: 260px;
 }
 
 .hero-image {
     position: absolute;
     width: auto;
     height: auto;
-    right: 160px;
     top: -350px;
 }
 
@@ -225,14 +225,14 @@ a:hover {
 }
 
 .work-status {
-    width: auto;
     padding: 8px 16px;
     background: #101114;
     border: 1px #ABB2BF solid;
     display: inline-flex;
-    align-items: center;
-    margin-left: 760px;
+    position:relative;
+    right: -30px;
     margin-top: 36px;
+    gap: 8px;
 }
 
 .status-indicator {
@@ -240,7 +240,6 @@ a:hover {
     height: 16px;
     background: #78DDA6;
     border: 1px #78DDA6 solid;
-    margin-right: 10px;
 }
 
 .status-text {
