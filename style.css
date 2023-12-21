@@ -201,6 +201,7 @@ a:not(:hover) {
     display: inline-block;
     margin-left: 171px;
     margin-top: 24px;
+    transition: border-color 0.5s ease;
 }
 
 .cta-button div {
@@ -212,7 +213,6 @@ a:not(:hover) {
 
 .cta-button:hover {
     border-color: #ffffff;
-    transition: border-color 0.5s ease;
 }
 
 .container {
@@ -803,7 +803,6 @@ a:not(:hover) {
     font-style: normal;
     font-weight: 500;
     line-height: normal;
-
 }
 
 .copyright {
@@ -816,4 +815,22 @@ a:not(:hover) {
     text-align: center;
     margin-top: 64px;
     margin-bottom: 32px;
+}
+
+.social {
+    transition: transform 0.3s ease;
+}
+
+.social:hover {
+    transform: scale(1.2);
+}
+
+.another-another-rec {
+    position: absolute;
+    width: 155px;
+    height: 155px;
+    flex-shrink: 0;
+    border: 1px solid var(--gray, #ABB2BF);
+    margin-top: 256px;
+    margin-left: -77px;
 }
