@@ -834,3 +834,18 @@ a:not(:hover) {
     margin-top: 256px;
     margin-left: -77px;
 }
+
+::-webkit-scrollbar {
+    width: 12px; /* Set the width of the scrollbar */
+  }
+  
+  /* Set the track (the area behind the thumb) */
+  ::-webkit-scrollbar-track {
+    background: #ABB2BF; /* Change this to your preferred background color */
+  }
+  
+  /* Set the scrollbar thumb */
+  ::-webkit-scrollbar-thumb {
+    background: #333;
+    border-radius: 10px;
+  }
