@@ -151,11 +151,9 @@ a:not(:hover) {
     height: 32px;
     position: relative;
     background: #ABB2BF;
-    left: -215px;
+    margin-left: -215px;
     margin-top: -5px;
 }
-
-/* HERO CONTAINER WILL BE HERE */
 
 .hero-text {
     color: white;
@@ -929,15 +927,13 @@ a:not(:hover) {
   }
 
 ::-webkit-scrollbar {
-    width: 12px; /* Set the width of the scrollbar */
+    width: 12px;
   }
-  
-  /* Set the track (the area behind the thumb) */
+
   ::-webkit-scrollbar-track {
-    background: #ABB2BF; /* Change this to your preferred background color */
+    background: #ABB2BF;
   }
   
-  /* Set the scrollbar thumb */
   ::-webkit-scrollbar-thumb {
     background: #333;
     border-radius: 10px;
