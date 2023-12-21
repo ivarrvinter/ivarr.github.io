@@ -269,13 +269,14 @@ a:not(:hover) {
     position: absolute;
     top: 605px;
     right: 0px;
-    transform: translateX(0);
-    animation: slideOut 1s forwards;
 }
 
-@keyframes slideOut {
+@keyframes rotate {
+    from {
+      transform: rotate(0deg);
+    }
     to {
-      transform: translateX(-100%);
+      transform: rotate(360deg);
     }
   }
 
@@ -322,7 +323,17 @@ a:not(:hover) {
     position: absolute;
     right: 0;
     top: 600px;
+    animation: slideInOut 4s infinite;
 }
+
+@keyframes slideInOut {
+    0%, 100% {
+      transform: translateX(-40%);
+    }
+    50% {
+      transform: translateX(10%);
+    }
+  }
 
 .square {
     border: 1px solid var(--gray, #ABB2BF);
@@ -416,9 +427,19 @@ a:not(:hover) {
     flex-direction: column;
     justify-content: space-between;
     align-items: flex-start;
-    top: 350px;
-    left: -30px;
+    top: 600px;
+    margin-left: 0px;
+    animation: upDown 8s infinite;
 }
+
+@keyframes upDown {
+    0%, 100% {
+      transform: translateY(0);
+    }
+    50% {
+      transform: translateY(-100%);
+    }
+  }
 
 .row {
     align-self:baseline;
